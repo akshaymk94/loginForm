@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/cover.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+.loginBox {
+    color: white;
+    position: absolute;
+    border: none;
+    background: rgba(0,0,0,0.7);
+    width: 25%;
+    height: 60%;
+    margin: 10% 0 0 15%;
+    box-sizing: border-box;
+    -webkit-border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px #444;
+}
+
+
+
+.avatar {
+    position: absolute;
+    width: 25%;
+    height: 20%;
+    top: -40px;
+    left: calc(50% - 50px);
+}
+
+#loginForm {
+    margin: 15% 5% 5%;
+}
+
+.form-control {
+    margin: 0 0 10%;
+}
+
+.rememberPassword {
+    
+}
+
+label {
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 5px;
+}
+
+#btnSubmit {
+    display: block;
+    width: 100%;
+    margin: 10% 0 0;
+}
+
+.TandC {
+    font-size: 12px;
+}
